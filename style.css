@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(255, 255, 255);
+    padding:20px;
+}
+header{
+    background:linear-gradient(135deg, #0a2540, #0f4c81);
+    border-radius:20px;
+    padding:40px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(88, 75, 75, 0.3);
+}
+.name{
+    text-align:left;
+    color:rgb(0, 0, 0);
+    padding:50px;
+    color:aliceblue;
+}
+.profile {
+    width: 200px;
+    padding:10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(114, 99, 99, 0.3);
+}
+.link{
+    color:aliceblue;
+    text-decoration-line: none;
+}
+.nametext{
+    letter-spacing: 2px;
+}
+.about{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 10px 30px rgba(14, 14, 14, 0.08);
+    border-radius: 20px;
+    padding:20px;
+    margin-top: 20px;
+}
+.abouth2 {
+  color: #0a2540;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.aboutpara{
+    line-height: 30px;
+    font-style: italic;
+    color:#444;
+}
+.skills{
+    background-color: white;
+    box-shadow:  0 10px 30px rgba(0,0,0,0.08);
+    padding:20px;
+    border-radius:20px;
+    margin-top:20px;
+}
+.certificate{
+    width:350px;
+    border-radius: 10px;
+}
+.space{
+    display:flex;
+    justify-content: space-evenly;
+}
+.video{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+.footer{
+    background:linear-gradient(135deg, #0a2540, #0f4c81);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    margin-top:20px;
+}
